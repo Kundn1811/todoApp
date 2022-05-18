@@ -1,0 +1,45 @@
+.todo{
+display: flex;
+width: 90%;
+margin: auto;
+text-align: left;
+justify-content: space-between;
+padding: 5px;
+margin-bottom: 5px;
+}
+.item{
+    display: flex;
+    color: red;
+
+}
+.stricked{
+    text-decoration: line-through;
+    color: green;
+}
+.parent_div{
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    margin-top: 5rem;
+    background-color: rgba(189, 212, 247, 0.899);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.parent_div h1{
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+    color: rgb(115, 178, 234);
+    margin:20px ;
+    
+}
+
+.parent_div>input{
+    width: 70%;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 20px;
+    outline: none;
+}
